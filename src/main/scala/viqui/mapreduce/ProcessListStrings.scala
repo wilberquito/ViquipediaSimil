@@ -17,7 +17,7 @@ object ProcessListStrings {
   }
 
   // donat un nom de directori retornem la llista de fitxers que hi ha
-  def getListOfFiles(dir: String):List[File] = {
+  def getListOfFiles(dir: String): List[File] = {
     val d = new File(dir)
     if (d.exists && d.isDirectory) {
       d.listFiles.filter(_.isFile).toList
@@ -27,16 +27,14 @@ object ProcessListStrings {
   }
 
   // donat un nom de directori mostrem els fitxers txt d'un directori
-  def mostrarTextDirectori(directori:String): Unit =
-  {
-    val fitxerstxt= for (f<-getListOfFiles(directori); nom = f.getName if nom.takeRight(3)=="txt")
-                        yield nom
-    for(f<-fitxerstxt)
-      {
-        println(f)
-        println(ProcessListStrings.llegirFitxer(directori++"/"++f))
-        println("--------------------------------------------------")
-      }
+  def mostrarTextDirectori(directori: String): Unit = {
+    val fitxerstxt = for (f <- getListOfFiles(directori); nom = f.getName if nom.takeRight(3) == "txt")
+      yield nom
+    for (f <- fitxerstxt) {
+      println(f)
+      println(ProcessListStrings.llegirFitxer(directori ++ "/" ++ f))
+      println("--------------------------------------------------")
+    }
   }
 
 
