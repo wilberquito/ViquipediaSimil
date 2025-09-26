@@ -45,5 +45,4 @@ la pràctica.
 * Al paquet `utils` teniu mètodes implementats en mòduls que us poden ser útils
   tant per a la primera com per a la segona part de la pràctica.
 
-* Obviament podeu reutilitzar el que hagueu implementat en la primera part per
-  la segona part.
+* Òbviament, podeu aprofitar el que heu implementat a la primera part per desenvolupar la segona.
