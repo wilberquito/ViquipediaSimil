@@ -35,9 +35,12 @@ Al repositori també trobareu la implementació per poder utilitzar o modificar 
 
 ## Aclariments
 
-* La primera part de la pràctica s’ha d’implementar al paquet `viqui.primera`, i
-  la segona part, de manera semblant, al paquet `viqui.segona`. **L’estructura
+* La primera part de la pràctica s’ha d’implementar al paquet `simil`, i
+  la segona part, de manera semblant, al paquet `viqui`. **L’estructura
   de carpetes ja està preparada: seguiu-la tal com està.**
 
 * Al paquet `utils` teniu mètodes implementats en mòduls que us poden ser útils
   tant per a la primera com per a la segona part de la pràctica.
+
+* Obviament podeu reutilitzar el que hagueu implementat en la primera part per
+  la segona part.
