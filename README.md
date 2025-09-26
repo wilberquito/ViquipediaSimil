@@ -11,8 +11,8 @@ Dit això, com diu Jack el Destripador... *“vamos por partes...”*.
 
 ## Part I
 
-En aquesta part heu d'implementar les funcionalitats demanades pel programa `simil`.
-Al repositori i trobeu implementat un seguit de funcionalitats per poder llegir fitxers de text.
+En aquesta secció heu d'implementar les funcionalitats que requereix el programa `simil`.
+Al repositori hi ha disponibles diverses funcionalitats per facilitar la lectura de fitxers de text.
 
 - Al directori `assets/simil/documents` trobareu un seguit de fitxers `*.txt`. Utilitze-ho
 per probar les funcionalitats de `simil`.
