@@ -1,5 +1,5 @@
 package edu.udg.pda
-package viqui.mapreduce
+package utils
 
 import scala.util.matching.Regex
 import scala.xml.{Elem, XML}

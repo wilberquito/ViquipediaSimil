@@ -1,9 +1,10 @@
 package edu.udg.pda
-package viqui.mapreduce
+package utils
+
+import org.apache.commons.io.{FileUtils, IOUtils}
 
 import java.io.File
 import java.nio.charset.StandardCharsets
-import org.apache.commons.io.{FileUtils, IOUtils}
 
 object ProcessListStrings {
 
@@ -36,6 +37,5 @@ object ProcessListStrings {
       println("--------------------------------------------------")
     }
   }
-
 
 }
