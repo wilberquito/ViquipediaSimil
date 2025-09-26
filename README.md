@@ -11,18 +11,21 @@ Dit això, com diu Jack el Destripador... *“vamos por partes...”*.
 
 ## Part I
 
-Al directori `assets/simil/documents` trobareu un seguit de fitxers `*.txt` que heu
-d’utilitzar per fer proves amb les diferents funcionalitats demanades pel
-programa `simil`.
+En aquesta part heu d'implementar les funcionalitats demanades pel programa `simil`.
+Al repositori i trobeu implementat un seguit de funcionalitats per poder llegir fitxers de text.
 
-També, al directori `assets/simil/stopwords` hi trobareu els *stopwords* en anglès
+- Al directori `assets/simil/documents` trobareu un seguit de fitxers `*.txt`. Utilitze-ho
+per probar les funcionalitats de `simil`.
+
+- També, al directori `assets/simil/stopwords` hi trobareu els *stopwords* en anglès
 per eliminar soroll dels textos.
 
 ## Part II
 
-Al repositori també trobareu la implementació per poder utilitzar o modificar el
-`MapReduce` vist a classe, així com les llibreries de processament de documents
-`XML`. A partir d’aquesta base podreu desenvolupar la vostra pràctica.
+Al repositori també trobareu un esquelet per poder utilitzar o modificar
+del `MapReduce` vist a classe, així com les llibreries de processament de
+documents `XML`. A partir d’aquesta base podreu desenvolupar la segona part de
+la pràctica.
 
 * Al directori `assets/viquipedia/stopwords` hi trobareu col·leccions de
   **stopwords**, com ara *stopwordscatalanet.txt* en català.
