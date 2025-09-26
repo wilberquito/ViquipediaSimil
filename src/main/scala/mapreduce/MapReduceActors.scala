@@ -1,5 +1,5 @@
 package edu.udg.pda
-package viqui.mapreduce
+package mapreduce
 
 import akka.actor.{Actor, ActorRef, Props}
 

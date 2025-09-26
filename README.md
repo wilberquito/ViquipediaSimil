@@ -1,8 +1,31 @@
 # ViquipediaSimil
 
-En aquest repositori trobareu una **llavor** per poder utilitzar o modificar el
-`MapReduce` vist a classe, així com les llibreries de processament de documents
-`XML`. A partir d’aquesta base podreu desenvolupar la vostra pràctica.
+En aquest repositori trobareu una **llavor** que conté el material necessari
+per poder desenvolupar tant la primera com la segona part de la pràctica.
+
+Per fer-ho correctament, us recomano que utilitzeu l’opció **Use this template**
+i creeu una còpia amb visibilitat **privada** amb el vostre nom de repositori.
+Per al lliurament, només cal que em doneu permisos d’accés.
+
+Dit això, com diu Jack el Destripador... *“vamos por partes...”*.
+
+## Part I
+
+En aquesta secció heu d'implementar les funcionalitats que requereix el programa `simil`.
+Al repositori hi ha disponibles diverses funcionalitats per facilitar la lectura de fitxers de text.
+
+- Al directori `assets/simil/documents` trobareu un seguit de fitxers `*.txt`. Utilitze-ho
+per probar les funcionalitats de `simil`.
+
+- També, al directori `assets/simil/stopwords` hi trobareu els *stopwords* en anglès
+per eliminar soroll dels textos.
+
+## Part II
+
+Al repositori també trobareu un esquelet per poder utilitzar o modificar
+del `MapReduce` vist a classe, així com les llibreries de processament de
+documents `XML`. A partir d’aquesta base podreu desenvolupar la segona part de
+la pràctica.
 
 * Al directori `assets/viquipedia/stopwords` hi trobareu col·leccions de
   **stopwords**, com ara *stopwordscatalanet.txt* en català.
@@ -13,11 +36,13 @@ En aquest repositori trobareu una **llavor** per poder utilitzar o modificar el
   Si preferiu un altre tema, només cal que actualitzeu el conjunt de pàgines amb
   l’àmbit que vulgueu.
 
-* La primera part de la pràctica s’ha d’implementar al paquet `viqui.primera`,
-  i la segona part, de manera semblant, al paquet `viqui.segona`.
-  **La estructura de carpetes ja està preparada: seguiu-la tal com està.**
+## Aclariments
 
-Per fer-ho correctament, us recomano que utilitzeu l’opció **Use this template**
-i creeu una còpia amb visibilitat **privada** amb el vostre nom de repositori.
-Per al lliurament, només cal que em doneu permisos d’accés.
+* La primera part de la pràctica s’ha d’implementar al paquet `simil`, i
+  la segona part, de manera semblant, al paquet `viqui`. **L’estructura
+  de carpetes ja està preparada: seguiu-la tal com està.**
 
+* Al paquet `utils` teniu mètodes implementats en mòduls que us poden ser útils
+  tant per a la primera com per a la segona part de la pràctica.
+
+* Òbviament, podeu aprofitar el que heu implementat a la primera part per desenvolupar la segona.
